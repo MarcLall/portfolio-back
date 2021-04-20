@@ -1,5 +1,9 @@
-const insured = require('./Insured')
+const blog = require('./blog')
+const speakCodeBack = require('./speakCodeBack')
+const speakCodeFront = require('./speakCodeFront')
 
 module.exports = {
-  insured,
+  blog,
+  speakCodeBack,
+  speakCodeFront
 }
